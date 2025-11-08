@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from '@mui/material/Button';
 import SearchBox from './SearchBox'
+import InfoBox from './infoBox.jsx';
+import WeatherApp  from './weatherApp.jsx';
 
 function App() {
   let clickButton = () => {
@@ -15,7 +17,10 @@ function App() {
       <br />
       <Button variant='contained' color='success' onClick={clickButton}>clicked</Button> */}
 
-        <SearchBox />
+        {/* <SearchBox /> */}
+        {/* <InfoBox /> */}
+
+        <WeatherApp />
     </>
   )
 }
